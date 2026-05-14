@@ -1,0 +1,8 @@
+Hessian Matching Units
+
+- Tabular Experiments:
+  - Baselines: main_tabular_baselines trains the MLP baselines
+  - Other Architectures: main_tabular_HMU trains the HMU variants, including RBFs and also the Pi-Net variants
+
+- Synthetic Experiments:
+  - synthetic_scaling_combined runs the training on the six different types of manifold classification problems for MLPs, RBFs and HMUs of single-hidden layer.
